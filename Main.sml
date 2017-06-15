@@ -41,12 +41,7 @@ fun SIFT NIL = NIL
 
 
 (**********************
- *
- * FUNCTION AND INFLIST STUBS -- YOU MUST IMPLEMENT THESE
- *
  * printList and printPairList must write to the file named by f.
- * Anything printed to the terminal will not be graded.
- *
  **********************)
 fun even (x : int) : bool = if (x mod 2=0) then true else false;
 fun odd  (x : int) : bool = if even x then false else true;
